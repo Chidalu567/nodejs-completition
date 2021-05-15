@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+body {
+  background-color: rgba(50, 50, 150, 3);
+}

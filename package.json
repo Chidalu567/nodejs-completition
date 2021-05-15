@@ -4,12 +4,16 @@
   "description": "This is my full course on nodejs",
   "main": "directoryname.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "dev":"nodemon /home/chidalu/Documents/begnode/begexpress/mongodb/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "loadash": "^1.0.0",
+    "mongoose": "^5.12.7",
     "nodemon": "^2.0.7"
   }
 }
