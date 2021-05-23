@@ -4,14 +4,20 @@
   "description": "This is my full course on nodejs",
   "main": "directoryname.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-  "dev":"nodemon /home/chidalu/Documents/begnode/begexpress/mongodb/app.js"
+    "test": "jest",
+    "dev": "nodemon /home/chidalu/Documents/begnode/begexpress/jsonwebtoken/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
     "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
     "loadash": "^1.0.0",
     "mongoose": "^5.12.7",
     "nodemon": "^2.0.7"
