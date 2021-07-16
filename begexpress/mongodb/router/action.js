@@ -3,6 +3,9 @@ const router = express.Router(); //import express router
 const db = require("mongoose"); //require data from the node module
 const Todo = require("../model/model"); //require data from node module
 
+//use expressAsyncHandler to wrap all the functions that has anything to do with mongodb.
+//in index.js use a middleware to get the error.
+
 //connection of database
 db.connect("mongodb://localhost:27017/TODO"); //connect to database
 
